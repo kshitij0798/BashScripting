@@ -13,7 +13,7 @@ sleep 2;
 # Update package list
 echo "${YELLOW}Update the system first${RESET}";
 sleep 2;
-#sudo apt update
+sudo apt update
 echo "${YELLOW}download apache2${RESET}";
 sudo apt install apache2 -y
 
