@@ -1,54 +1,59 @@
-#  Bash Script for Installation on Ubuntu 
+Bash Scripts for Ubuntu Application Setup
 
-## Project Description:
-In this project, I developed Bash Script for Java, Apache, Tomcat and Nginx on Ubuntu. The primary goal of this project is to automated app installation and deployment on a Ubuntu OS.
+Project Description
+This repository contains a collection of Bash scripts designed to automate the installation and setup of commonly used software on Ubuntu systems.
+The scripts help simplify system configuration by reducing manual steps involved in installing Java, Apache, Tomcat, and Nginx.
 
-## Overview:
+The goal of this project is to make application installation faster, repeatable, and reliable on Ubuntu-based environments.
 
-## Prerequisites:
+Overview
+Managing software installations manually can be time-consuming and error-prone.
+These scripts provide a straightforward way to install and configure essential services using simple shell commands, making them useful for learning, testing, and basic server setups.
 
-1. Basic knowledge of Linux and concepts.
-2. Familiarity with Ubuntu command.
-3. An IDE of your Choice , I would suggest VS Code Editor .
+Prerequisites
+Before running the scripts, ensure the following:
 
-## Script :
+1. Basic understanding of Linux and shell commands
+2. An Ubuntu-based operating system
+3. Command-line access with sudo privileges
+4. Any text editor or IDE (VS Code is recommended)
 
-### Script 1: Installation Java through bash script on Ubuntu OS
+Available Scripts
 
-Set the Permission and Run the Script 
+Script 1: Java Installation on Ubuntu
+This script installs Java (supported versions included in the script).
 
-```
+Make the script executable and run it:
 chmod +x java_8_11_ubuntu.sh
-sh java_8_11_ubuntu.sh
-```
+./java_8_11_ubuntu.sh
 
-### Script 2: Installation Apache through bash script on Ubuntu OS
+Script 2: Apache Installation on Ubuntu
+This script installs and starts the Apache web server.
 
-Set the Permission and Run the Script 
+Make the script executable and run it:
+chmod +x apache_setup_ubuntu.sh
+./apache_setup_ubuntu.sh
 
-```
-chmod +x apache_setup_ubuntu
-sh apache_setup_ubuntu.sh
-```
+Script 3: Tomcat Installation on Ubuntu
+This script installs Apache Tomcat and allows you to choose the version during execution.
 
-### Script 3: Installation Tomcat through bash script on Ubuntu OS
+Make the script executable and run it:
+chmod +x tomcat_setup_ubuntu.sh
+./tomcat_setup_ubuntu.sh
 
-Set the Permission and Run the Script 
+Available options during execution:
+1. Tomcat 9.0.87
+2. Tomcat 10.1.20
+3. Tomcat 11.0.0-M16
 
-```
-chmod +x tomcat_setup_ubuntu
-sh tomcat_setup_ubuntu.sh
-```
+Script 4: Nginx Installation on Ubuntu
+This script installs and configures the Nginx web server.
 
-```
-Choose "1. Tomcat 9.0.87" | "2. Tomcat 10.1.20" | "3. Tomcat 11.0.0-M16"
-```
+Make the script executable and run it:
+chmod +x nginx_ubuntu.sh
+./nginx_ubuntu.sh
 
-### Script 4: Installation Nginx through bash script on Ubuntu OS
-
-Set the Permission and Run the Script 
-
-```
-chmod +x nginx_ubuntu
-sh nginx_ubuntu.sh
-```
+Notes
+- All scripts should be run with appropriate permissions
+- It is recommended to review the script contents before execution
+- These scripts are intended for learning and basic automation purposes
