@@ -9,7 +9,7 @@ The objective of this project is to make application installation faster, consis
 ---
 
 ## Overview
-Installing applications on Linux by hand can take a lot of time and may cause mistakes.
+Installing applications on Linux by manually can take a lot of time and may cause mistakes.
 These scripts use simple commands to install and set up important services, which makes them helpful for learning, practice, and basic server work.
 
 ---
