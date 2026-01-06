@@ -9,8 +9,8 @@ The objective of this project is to make application installation faster, consis
 ---
 
 ## Overview
-Manually installing applications on Linux servers can be time-consuming and error-prone.  
-These scripts provide a simple command-line based approach to install and configure essential services, making them useful for learning, testing, and basic server automation.
+Installing applications on Linux by hand can take a lot of time and may cause mistakes.
+These scripts use simple commands to install and set up important services, which makes them helpful for learning, practice, and basic server work.
 
 ---
 
